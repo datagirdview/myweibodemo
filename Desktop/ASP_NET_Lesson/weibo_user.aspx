@@ -8,6 +8,8 @@
      <link href="css/bootstrap.css" rel="stylesheet" media="screen" />
      <link href="css/landing-page.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <title></title>
 </head>
 <body>
@@ -37,13 +39,13 @@
                             <div class="list-group" >
 
                                 <br />
-                                <asp:DataList ID="DataList3" runat="server" Width="100%" OnItemDataBound="DataList3_ItemDataBound"  BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" ForeColor="Black">
+                                <asp:DataList ID="DataList3" style="background-color:#e8e8e8" runat="server" Width="100%" OnItemDataBound="DataList3_ItemDataBound"  BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" ForeColor="Black">
                                     <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                                     <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
 
                                     <ItemTemplate>
 
-                                        <div class="list-group-item" style="padding-left: 150px; padding-right: 150px; margin-bottom: 10px">
+                                        <div class="list-group-item" style="padding-left: 150px; padding-right: 150px; margin-bottom: 10px;width:100%">
                                             <asp:Label ID="lbl_user" runat="server" Style="font-size: 12pt" Text='<%#DataBinder.Eval(Container.DataItem,"id_User").ToString()%>'></asp:Label>
 
                                             <asp:Label ID="lbl_date" runat="server" Style="font-size: 7pt" Text='<%#DataBinder.Eval(Container.DataItem,"wDate").ToString()%>'></asp:Label>

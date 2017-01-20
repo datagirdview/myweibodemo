@@ -6,6 +6,8 @@
 <head runat="server">
      <link href="css/bootstrap.css" rel="stylesheet" media="screen" />
      <link href="css/landing-page.css" rel="stylesheet" />
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
@@ -25,7 +27,7 @@
           <asp:ScriptManager ID="ScriptManager1" runat="server"> </asp:ScriptManager>
      <asp:UpdatePanel ID="UpdatePanel1" runat="server">
              <ContentTemplate>
-                 <div class="mymain" style="margin-top: 70px; text-align: left; text-align: center">
+                 <div class="mymain" style="margin-top: 50px; text-align: left; text-align: center">
                      <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/weibo.aspx">返回微博首页</asp:HyperLink>
                      <br />
                      <asp:GridView ID="GridView1" Style="margin: 0 auto;" runat="server" AutoGenerateColumns="false" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" RowStyle-Height="20px" Width="55%" Font-Size="15pt">

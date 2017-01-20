@@ -7,6 +7,8 @@
 <link href="css/bootstrap.css" rel="stylesheet" media="screen" />
 <link href="css/main.css" rel="stylesheet" media="screen" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <title></title>
 </head>
 <body style="background-image:url(image/back1.jpg);background-repeat:no-repeat">
@@ -24,11 +26,6 @@
 </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- The AJAX login script -->
-    <script src="js/login.js"></script>
+   
 </body>
 </html>

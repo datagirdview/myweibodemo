@@ -25,12 +25,6 @@ public partial class weibo : System.Web.UI.Page
             DataList1.DataSource = mytb1;
             DataList1.DataBind();
 
-            MyADOCS myADO2 = new MyADOCS();
-            DataTable mytb2 = new DataTable();
-            mytb2 = myADO2.GetTablePROn("sel_top10_Z");
-            DataList2.DataSource = mytb2;
-            DataList2.DataBind();
-
             MyADOCS myADO3 = new MyADOCS();
             SqlParameter[] myParam2 = { new SqlParameter("@UserN", SqlDbType.VarChar) };
             DataTable mytb3 = new DataTable();

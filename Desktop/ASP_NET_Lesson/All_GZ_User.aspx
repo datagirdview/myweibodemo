@@ -7,6 +7,8 @@
      <link href="css/bootstrap.css" rel="stylesheet" media="screen" />
      <link href="css/landing-page.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <title></title>
 
 </head>
